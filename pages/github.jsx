@@ -16,13 +16,13 @@ const GithubPage = ({ repos, user }) => {
     <>
       <div className={styles.user}>
         <div>
-          <Image
+          {user.avatar_url && <Image
             src={user.avatar_url}
             className={styles.avatar}
             alt={user.login}
             width={50}
             height={50}
-          />
+          />}
           <h3 className={styles.username}>{user.login}</h3>
         </div>
         <div>
@@ -68,10 +68,11 @@ export async function getStaticProps() {
       },
     }
   );
-  let repos = await repoRes.json();
+  const result = await repoRes.json();
+  let repos = Array.isArray(result) ? result : [];
   repos = repos
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
-    .slice(0, 6);
+    .slice(0, 12);
 
   return {
     props: { title: 'GitHub', repos, user },

@@ -1,9 +1,12 @@
 module.exports = {
   images: {
     domains: [
-      'res.cloudinary.com',
-      'avatars.githubusercontent.com',
-      'imgur.com',
+      "res.cloudinary.com",
+      "avatars.githubusercontent.com",
+      "imgur.com",
+      "i.imgur.com",
+      "github.com",
+      "user-images.githubusercontent.com",
     ],
   },
 };

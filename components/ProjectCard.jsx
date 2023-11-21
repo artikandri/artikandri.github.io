@@ -26,14 +26,14 @@ const ProjectCard = ({ project }) => {
               Source Code
             </a>
           )}
-          <a
+          {project.demo && <a
             href={project.demo}
             target="_blank"
             rel="noopener noreferrer"
             className={styles.underline}
           >
             Live Demo
-          </a>
+          </a>}
         </div>
       </div>
     </div>

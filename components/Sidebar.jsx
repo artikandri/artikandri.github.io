@@ -3,10 +3,11 @@ import { useRouter } from 'next/router';
 import FilesIcon from './icons/FilesIcon';
 import GithubIcon from './icons/GithubIcon';
 import CodeIcon from './icons/CodeIcon';
-import PencilIcon from './icons/PencilIcon';
 import MailIcon from './icons/MailIcon';
 import AccountIcon from './icons/AccountIcon';
 import SettingsIcon from './icons/SettingsIcon';
+import SpotifyIcon from './icons/SpotifyIcon';
+
 import styles from '../styles/Sidebar.module.css';
 
 const sidebarTopItems = [
@@ -23,12 +24,12 @@ const sidebarTopItems = [
     path: '/projects',
   },
   {
-    Icon: PencilIcon,
-    path: '/articles',
-  },
-  {
     Icon: MailIcon,
     path: '/contact',
+  },
+  {
+    Icon: SpotifyIcon,
+    path: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
   },
 ];
 
