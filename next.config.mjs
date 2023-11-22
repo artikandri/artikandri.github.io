@@ -5,6 +5,7 @@
 const nextConfig = {
   images: {
     loader: "akamai",
+    unoptimized: true,
     domains: [
       "res.cloudinary.com",
       "avatars.githubusercontent.com",
