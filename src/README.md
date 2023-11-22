@@ -1,3 +1,0 @@
-## artikandri.github.io
-
-Portfolio.
