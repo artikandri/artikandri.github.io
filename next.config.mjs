@@ -4,7 +4,7 @@
 
 const nextConfig = {
   images: {
-    loader: "akamai",
+    // loader: "akamai",
     unoptimized: true,
     domains: [
       "res.cloudinary.com",
