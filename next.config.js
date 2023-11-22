@@ -1,8 +1,4 @@
-/**
- * @type {import('next').NextConfig}
- */
-
-const nextConfig = {
+module.exports = {
   images: {
     loader: "akamai",
     unoptimized: true,
@@ -19,5 +15,3 @@ const nextConfig = {
   exportPathMap: "",
   assetPrefix: "./",
 };
-
-export default nextConfig;
