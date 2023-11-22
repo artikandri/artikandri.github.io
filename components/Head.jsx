@@ -13,6 +13,7 @@ const CustomHead = ({ title }) => {
         content="argi candri, argi, candri, web developer portfolio,  web developer,  developer, portfolio, full stack, frontend, vue, react, next"
       />
       <meta property="og:title" content="Argi Candri's Portfolio" />
+      <link rel="canonical" href="https://artikandri.github.io"></link>
       <meta
         property="og:description"
         content="A front end developer with some experiences in data science. "
