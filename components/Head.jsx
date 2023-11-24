@@ -18,9 +18,7 @@ const CustomHead = ({ title }) => {
         property="og:description"
         content="A front end developer with some experiences in data science. "
       />
-      <meta property="og:image" content="https://imgur.com/4zi5KkQ.png" />
       <meta property="og:url" content="https://artikandri.github.io" />
-      <meta name="twitter:card" content="summary_large_image" />
     </Head>
   );
 };
