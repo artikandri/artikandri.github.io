@@ -2,7 +2,6 @@
 import Link from 'next/link';
 import Illustration from '../components/Illustration';
 import styles from '../styles/HomePage.module.css';
-import { LinkPreview } from '@dhaiwat10/react-link-preview';
 
 
 export default function HomePage() {
@@ -30,7 +29,6 @@ export default function HomePage() {
           <Illustration className={styles.illustration} />
         </div>
       </div>
-      <LinkPreview url='https://artikandri.github.io' width='400px' />;
     </>
   );
 }
